@@ -1,0 +1,52 @@
+body {
+    background-color: dimgray;
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    background-color: slategray;
+    border: 3px inset royalblue;
+}
+
+.navbtn {
+    font-size: 24pt;
+    padding: 9px;
+    background: steelblue;
+    border: 3px outset royalblue;
+    align-self: flex-start;
+}
+.navbtn:hover, .navbtn:active {
+    padding: 9px;
+    background: lightsteelblue;
+    border: 3px outset royalblue;
+    align-self: flex-start;
+}
+
+.left {
+    width: 20%;
+    float: left;
+    margin: 0px;
+    border: 3px solid black;
+}
+.right {
+    width: 20%;
+    float: right;
+    margin: 0px;
+    border: 3px solid black;
+}
+
+.maindiv {
+    background-color: steelblue;
+    height: 100vh;
+    padding-top: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
